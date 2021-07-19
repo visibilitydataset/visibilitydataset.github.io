@@ -1,0 +1,268 @@
+<h1 style="text-align: center;">ViViD++ : Vision for Visibility Dataset</h1>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<section class="hero">
+<div class="hero-body">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div class="column has-text-centered">
+<div class="is-size-5 publication-authors" style="text-align: center;"><span class="author-block"> <a href="https://c11.kr/alexlee">Alex Junho Lee</a><sup>1</sup>,</span> <span class="author-block"> <a href="https://sites.google.com/site/ygchocv/home">Younggun Cho</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://scholar.google.co.kr/citations?user=gGfBRawAAAAJ&amp;hl=ko">Young-sik Shin</a><sup>3</sup>, </span> <span class="author-block"> <a href="http://urobot.kaist.ac.kr/members/professor">Hyun Myung</a></span><span class="author-block"><sup>1*</sup></span></div>
+<div class="is-size-5 publication-authors" style="text-align: center;"><span class="author-block"><sup>1</sup>Korea Advanced Institute of Science and Technology,</span> <span class="author-block"><sup>2</sup>Inha University,&nbsp;<sup>3</sup>Korea Institute of Machinery and Materials</span></div>
+<div class="column has-text-centered" style="text-align: center;">
+<div class="publication-links"><!-- PDF Link. --> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://urserver.kaist.ac.kr/publicdata/ViViD++/dgbicra_ws_vivid.pdf"> Paper </a> </span> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://arxiv.org"> arXiv </a> </span> <!-- Video Link. --> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://www.youtube.com/"> Video</a></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="hero is-light is-small">
+<div class="hero-body" style="text-align: center;">&nbsp;</div>
+</section>
+<section class="section">
+<div class="container is-max-desktop"><!-- Abstract. -->
+<div class="columns is-centered has-text-centered">
+<div class="column is-four-fifths">
+<h2 class="title is-3">Abstract</h2>
+<div class="content has-text-justified">
+<p>In this paper, we provide a dataset capturing unconventional visual data<br />obtained from poor lighting conditions. Our data provides normal and poor<br />illumination sequences recorded by thermal, depth sensors, and event cameras<br />for indoor and outdoor trajectories. For developing a visual-inertial navigation<br />system free from lighting conditions, we suggest obtaining visual information<br />from a domain more than visible intensity. We present a dataset collected from<br />co-aligned alternative cameras with inertial measurements. Our sensor set<br />collects data independently from visible light intensity by measuring the amount<br />of infrared dissipation, depth by structured reflection, and instantaneous<br />temporal changes in luminance. We provide these measurements along with inertial<br />sensors and ground truth, for developing robust SLAM under poor illumination.</p>
+</div>
+</div>
+</div>
+<!--/ Abstract. --> <!-- Paper video. -->
+<div class="columns is-centered has-text-centered">
+<div class="column is-four-fifths">
+<h2 class="title is-3">Sensor setup</h2>
+<h2 style="text-align: center;">1. Handheld</h2>
+<div class="hJDwNd-AhqUyc-c5RTEf purZT-AhqUyc-c5RTEf pSzOP-AhqUyc-c5RTEf JNdkSc">
+<div class="JNdkSc-SmKAyb">
+<div class="">
+<div class="oKdM2c Kzv0Me">
+<div id="h.9f829bb4b874c70_16" class="hJDwNd-AhqUyc-c5RTEf purZT-AhqUyc-c5RTEf pSzOP-AhqUyc-c5RTEf jXK9ad D2fZ2 OjCsFc wHaque">
+<div class="jXK9ad-SmKAyb">
+<div class="tyJCtd baZpAe">
+<div class="t3iYD" style="text-align: center;"><img class="CENy8b" role="img" src="https://lh6.googleusercontent.com/zuxI4D214QJ8pN4L_d9V9qoOO6jsr110l2BAMgQzkNNfosk2ZlWWuxcjZDO8VNyRoYQWVyfb_REChrvsOjtMElle570HrP-7EQvFHvGZnvGh-nfE=w1280" width="346" height="548" /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hJDwNd-AhqUyc-qWD73c purZT-AhqUyc-II5mzb pSzOP-AhqUyc-qWD73c JNdkSc">
+<div class="JNdkSc-SmKAyb">
+<div class="">
+<div class="oKdM2c Kzv0Me">
+<div id="h.9f829bb4b874c70_19" class="hJDwNd-AhqUyc-qWD73c jXK9ad D2fZ2 OjCsFc wHaque GNzUNc">
+<div class="jXK9ad-SmKAyb">
+<div class="tyJCtd mGzaTb baZpAe">
+<div id="h.p_AuiGklXfk2JI" class="GV3q8e aP9Z7e">&nbsp;- LiDAR : Velodyne VLP-16</div>
+<div id="h.p_yGoLf1VSkirb" class="GV3q8e aP9Z7e">&nbsp;</div>
+<div class="CjVfdc">
+<div class="PPhIP rviiZ">&nbsp;- Thermal camera : FLIR A65</div>
+</div>
+<div id="h.p_bUq_nzEkkirc" class="GV3q8e aP9Z7e">&nbsp;</div>
+<div class="CjVfdc">
+<div class="PPhIP rviiZ">&nbsp;- RGB-D camera : Asus Xtion Pro Live</div>
+</div>
+<div id="h.p_ROCChsTZkirc" class="GV3q8e aP9Z7e">&nbsp;</div>
+<div class="CjVfdc">
+<div class="PPhIP rviiZ">&nbsp;- Event camera : DAVIS240C</div>
+</div>
+<div id="h.p_86akz4eykird" class="GV3q8e aP9Z7e">&nbsp;</div>
+<div class="CjVfdc">
+<div class="PPhIP rviiZ">&nbsp;- IMU : Microstrain 3DM-GX5-25</div>
+</div>
+<p class="CDt4Ke zfr3Q" dir="ltr">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2 class="title is-3">Calibration</h2>
+<p>The calibration procedure is done by finding extrinsic parameters between RGBD-Thermal, RGBD-Event, RGBD-IMU, RGBD-LiDAR. From the convenience of RGBD providing both VGA resolution Image and corresponding depth, we have obtained the alignment of each sensor. Cameras and IMU are calibrated with <span class=" aw5Odc"><a class="XqQF9c" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fethz-asl%2Fkalibr&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGnt4HuREikmRzMC91jseMXVehXew" target="_blank" rel="noopener">Kalibr</a></span>, and LiDAR was calibrated by matching detected plane vectors and pointcloud matching with ICP.</p>
+<section id="h.9f829bb4b874c70_32" class="yaqOZd">
+<div class="mYVXT">
+<div class="LS81yb VICjCf" tabindex="-1">
+<div class="hJDwNd-AhqUyc-qWD73c purZT-AhqUyc-II5mzb pSzOP-AhqUyc-qWD73c JNdkSc">
+<div class="JNdkSc-SmKAyb">
+<div class="">
+<div class="oKdM2c Kzv0Me">
+<div id="h.9f829bb4b874c70_35" class="hJDwNd-AhqUyc-qWD73c jXK9ad D2fZ2 OjCsFc wHaque">
+<div class="jXK9ad-SmKAyb">
+<div class="tyJCtd baZpAe">
+<div class="t3iYD" style="text-align: center;"><img class="CENy8b" role="img" src="https://lh3.googleusercontent.com/Hxbck42AKiyFmrYk7spWGlqP4ygxHfa7wgeYG5ZrWbely1ww07f4XTGjZIh0cUxL6SZ23fUt6V6ISwmNvdLGPHOtuQHP91f1UqK8RmYMO6Z_QVFL=w1280" width="530" height="395" /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hJDwNd-AhqUyc-c5RTEf JNdkSc L6cTce-purZT L6cTce-pSzOP">&nbsp;</div>
+</div>
+</div>
+</section>
+<section id="h.9f829bb4b874c70_36" class="yaqOZd">
+<div class="mYVXT">
+<div class="LS81yb VICjCf" tabindex="-1">
+<div class="hJDwNd-AhqUyc-uQSCkd purZT-AhqUyc-II5mzb pSzOP-AhqUyc-qWD73c JNdkSc">
+<div class="JNdkSc-SmKAyb">
+<div class="">
+<div class="oKdM2c Kzv0Me">
+<div id="h.9f829bb4b874c70_39" class="hJDwNd-AhqUyc-uQSCkd jXK9ad D2fZ2 OjCsFc wHaque GNzUNc">
+<div class="jXK9ad-SmKAyb">
+<div class="tyJCtd mGzaTb baZpAe">
+<p class="CDt4Ke zfr3Q" dir="ltr" style="text-align: center;">Calibration targets used in the calibration procedure. Details are specified in the targets yaml file.</p>
+<p class="CDt4Ke zfr3Q" dir="ltr" style="text-align: center;">(left upper) thermal board, aluminum printed on pcb, (left lower) chessboard, (right) apriltag 6x6.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<h2 class="title is-3">Sequences</h2>
+<table style="height: 281px;" width="715">
+<tbody>
+<tr>
+<td style="width: 228px; text-align: center;" colspan="2">
+<h3><strong>Handheld</strong></h3>
+</td>
+<td style="width: 351px; text-align: center;" colspan="3">
+<h3><strong>Driving</strong></h3>
+</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_global_robust</td>
+<td style="width: 111px; text-align: justify;">outdoor_day_1</td>
+<td style="width: 113px; text-align: justify;">campus_day1</td>
+<td style="width: 113px; text-align: justify;">city_day1</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_global_unstable</td>
+<td style="width: 111px; text-align: justify;">outdoor_day_2</td>
+<td style="width: 113px; text-align: justify;">campus_day2</td>
+<td style="width: 113px; text-align: justify;">city_day2</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_global_aggressive</td>
+<td style="width: 111px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">campus_evening</td>
+<td style="width: 113px; text-align: justify;">city_evening</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_local_robust</td>
+<td style="width: 111px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">campus_night</td>
+<td style="width: 113px; text-align: justify;">city_night</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_local_unstable</td>
+<td style="width: 111px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">campus_day1_vision</td>
+<td style="width: 113px; text-align: justify;">city_day1_vision</td>
+<td style="width: 113px; text-align: justify;">urban_day1_vision</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_local_aggressive</td>
+<td style="width: 111px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">campus_day2_vision</td>
+<td style="width: 113px; text-align: justify;">city_day2_vision</td>
+<td style="width: 113px; text-align: justify;">urban_day2_vision</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_dark_robust</td>
+<td style="width: 111px; text-align: justify;">outdoor_night_1</td>
+<td style="width: 113px; text-align: justify;">campus_evening_vision</td>
+<td style="width: 113px; text-align: justify;">city_evening_vision</td>
+<td style="width: 113px; text-align: justify;">urban_evening_vision</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_dark_unstable</td>
+<td style="width: 111px; text-align: justify;">outdoor_night_2</td>
+<td style="width: 113px; text-align: justify;">campus_night_vision</td>
+<td style="width: 113px; text-align: justify;">city_night_vision</td>
+<td style="width: 113px; text-align: justify;">urban_night_vision</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_dark_aggressive</td>
+<td style="width: 111px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 111px; text-align: justify;">indoor_varying_robust</td>
+<td style="width: 111px; text-align: justify;">&nbsp;indoor_calibration</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+<td style="width: 113px; text-align: justify;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h2 class="title is-3">Request Downloads</h2>
+<p>The dataset is provided on-demand, by following <a href="https://forms.gle/MNEdbRt1JNiZdMGbA">request link.</a></p>
+<p>Please note that only education domains (*.edu, *.ac.* etc.) are allowed for download.</p>
+<h2 class="title is-3">Video</h2>
+<div class="publication-video"><iframe src="https://youtube.com" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+</div>
+<!--/ Paper video. --></div>
+</section>
+<section class="section">
+<div class="container is-max-desktop">
+<div class="columns is-centered"><!-- Visual Effects. -->
+<div class="column">&nbsp;&nbsp;</div>
+</div>
+<!--/ Animation. --> <!-- Concurrent Work. -->
+<div class="columns is-centered">
+<div class="column is-full-width">
+<h2 class="title is-3">Related Links</h2>
+<div class="content has-text-justified">
+<p>There's a lot of excellent work that was introduced for SLAM Developments.</p>
+<p><a href="https://sites.google.com/view/awesome-slam-datasets/"> Awesome SLAM Datasets</a> lists up State-Of-The-Art SLAM datasets.</p>
+<p><a href="https://irap.kaist.ac.kr/dataset/"> KAIST Urban Dataset</a> contains large scale and long term dataset.</p>
+<p>&nbsp;</p>
+<h2 class="title is-3">Bibtex</h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="BibTeX" class="section">
+<div class="container is-max-desktop content">
+<pre><br /><br /><br /></pre>
+<section class="section">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div class="column is-full-width">
+<div class="content has-text-justified">
+<h2 class="title is-3">License</h2>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="columns is-centered">
+<div class="column is-8">
+<div class="content">
+<p>This website is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<p>This means you are free to borrow the <a href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website, we just ask that you link back to this page in the footer. Please remember to remove the analytics code included in the header of the website which you do not want on your website.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
