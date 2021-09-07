@@ -8,7 +8,7 @@
 <div class="is-size-5 publication-authors" style="text-align: center;"><span class="author-block"> <a href="https://c11.kr/alexlee">Alex Junho Lee</a><sup>1</sup>,</span> <span class="author-block"> <a href="https://sites.google.com/site/ygchocv/home">Younggun Cho</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://scholar.google.co.kr/citations?user=gGfBRawAAAAJ&amp;hl=ko">Young-sik Shin</a><sup>3</sup>, </span> <span class="author-block"> <a href="https://scholar.google.com/citations?user=7yveufgAAAAJ&hl=ko&oi=ao">Ayoung Kim</a><sup>4</sup>,</span> <span class="author-block"> <a href="http://urobot.kaist.ac.kr/members/professor">Hyun Myung</a></span><span class="author-block"><sup>1*</sup></span></div>
 <div class="is-size-5 publication-authors" style="text-align: center;"><span class="author-block"><sup>1</sup>KAIST,</span> <span class="author-block"><sup>2</sup>Inha Univ.,&nbsp;<sup>3</sup>KIMM,&nbsp;<sup>4</sup>SNU</span></div>
 <div class="column has-text-centered" style="text-align: center;">
-<div class="publication-links"><!-- PDF Link. --> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://urserver.kaist.ac.kr/publicdata/ViViD++/vivid++.pdf"> Paper </a> </span> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://arxiv.org"> arXiv </a> </span> <!-- Video Link. --> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://www.youtube.com/"> Video</a></span></div>
+<div class="publication-links"><!-- PDF Link. --> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://urserver.kaist.ac.kr/publicdata/ViViD++/vivid++.pdf"> Paper </a> </span> <span class="link-block"> <a class="external-link button is-normal is-rounded is-dark" href="https://arxiv.org"> arXiv </a> </span> <!-- Video Link. --> </div>
 </div>
 </div>
 </div>
@@ -22,9 +22,21 @@
 <div class="container is-max-desktop"><!-- Abstract. -->
 <div class="columns is-centered has-text-centered">
 <div class="column is-four-fifths">
-<h2 class="title is-3">Abstract</h2>
+<h2 class="title is-3"></h2>
 <div class="content has-text-justified">
-<p>In this dataset, we present a dataset capturing diverse visual data formats that target varying luminance conditions. While RGB cameras provide nourishing and intuitive information, changes in lighting conditions potentially result in a catastrophic failure for robotic applications based on vision sensors. There have been many approaches to overcome illumination problems by developing more robust algorithms or other types of visual sensors, such as thermal and event cameras. Despite the potential that the alternative sensors possess, there still exist few datasets with alternative vision sensors. Thus we provided a dataset recorded from alternative vision sensors, by handheld or mounted on a car, repeatedly in the same space but different conditions. We aim to collect more information on visible visibility with co-aligned alternative vision sensors. Our sensor system collects data more independently from visible light intensity by measuring the amount of infrared dissipation, depth by structured reflection, and instantaneous temporal changes in luminance. We provide these measurements along with inertial sensors and ground truth for developing robust visual SLAM under poor illumination.</p>
+<p>
+  This paper is a proceeding work of the unpublished paper "ViViD : Vision for Visibility Dataset", best poster presentation of ICRA 2019 Workshop/Tutorial - <DGB-ICRA-2019: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR>. After prior submission, the scale of experiment has been expanded to include driving sequences. The models of event camera and LiDAR was changed to provide higher resolution.
+</p>
+</div>
+</div>
+</div>
+<div class="columns is-centered has-text-centered">
+<div class="column is-four-fifths">
+<h2 class="title is-3">Keywords</h2>
+<div class="content has-text-justified">
+<p>
+  Data Sets for SLAM; Data Sets for Robotic Vision; Data Sets for Robot Learning
+</p>
 </div>
 </div>
 </div>
@@ -58,7 +70,13 @@
 <div class="tyJCtd mGzaTb baZpAe">
 <div id="h.p_86akz4eykird" class="GV3q8e aP9Z7e">&nbsp;</div>
 <div class="CjVfdc">
-<div class="PPhIP rviiZ">&nbsp;An overview of the sensor system and the dataset. We setup different sensor configuration for handheld (upper left) and driving (upper right). Sensor systems include rgb, thermal, events, depth, and interial measurements. Each sensors are indicated with the letter box. The visibility differences of each sensors are displayed in the lower row. Relative to RGB, thermal and event show less variance to illumination condition.</div>
+<div class="PPhIP rviiZ">
+  &nbsp;An overview of the sensor system and the dataset. We set up different sensor
+		configurations for handheld (upper left) and driving (upper right).
+		Sensor systems include RGB, thermal, events, depth, and interial measurements.
+		Each sensor is indicated with the letter box. Each sensor's visibility differences
+		are displayed in the lower row. Relative to RGB, thermal and
+		event show less variance to the illumination condition..</div>
 </div>
 <p class="CDt4Ke zfr3Q" dir="ltr">&nbsp;</p>
 </div>
@@ -120,9 +138,12 @@
     </table>
 <p>The dataset is provided on-demand, by following <a href="https://forms.gle/o1boKS4LL6jzCR137">request link.</a></p>
 <p>Please note that only education domains (*.edu, *.ac.* etc.) are allowed for download.</p>
+</section>
 <h2 class="title is-3">Video</h2>
-<div class="publication-video"><iframe src="https://youtube.com" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-</div>
+<div class="publication-video">
+<video width="640" height="360" controls>
+  <source src="https://urserver.kaist.ac.kr/publicdata/ViViD++/RAL2021-video-main.mp4" type="video/mp4">
+</video>
 </div>
 <!--/ Paper video. --></div>
 </section>
@@ -139,7 +160,6 @@
 <p>There's a lot of excellent work that was introduced for SLAM Developments.</p>
 <p><a href="https://sites.google.com/view/awesome-slam-datasets/"> Awesome SLAM Datasets</a> lists up State-Of-The-Art SLAM datasets.</p>
 <p><a href="https://irap.kaist.ac.kr/dataset/"> KAIST Urban Dataset</a> contains large scale and long term dataset.</p>
-<p>&nbsp;</p>
 <h2 class="title is-3">Bibtex</h2>
 </div>
 </div>
@@ -148,7 +168,6 @@
 </section>
 <section id="BibTeX" class="section">
 <div class="container is-max-desktop content">
-<pre><br /><br /><br /></pre>
 <section class="section">
 <div class="container is-max-desktop">
 <div class="columns is-centered">
