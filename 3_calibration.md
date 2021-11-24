@@ -10,7 +10,7 @@ For verification, we show the sensor coordinates plots with the actual sensors i
 
 - Driving
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/drive_system.png" width="80%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/drive_system.png" width="85%" height="auto" />
 </div>
 
 - Handheld
