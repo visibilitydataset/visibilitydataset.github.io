@@ -2,7 +2,11 @@
 sort: 1
 ---
 
-# Sequences
+## Sequences
+
+We provide a dataset from two distinct sensor systems, handheld and driving.
+
+##
 
 ```
 dataset

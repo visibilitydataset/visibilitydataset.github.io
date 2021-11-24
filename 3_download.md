@@ -2,29 +2,24 @@
 sort: 3
 ---
 
-# Request Downloads
+## Request Downloads
+
+The dataset is provided on-demand, by following a [request link](https://forms.gle/o1boKS4LL6jzCR137). Please fill out a simple form to us, and you will get a automated response mail containing full download links.
+
+The shortcut for the calibration parameters are [here](https://urserver.kaist.ac.kr/publicdata/ViViD++/calibration/calibration_results.zip).
 
 ```note
-This is note2
+Please note that only education domains (*.edu, *.ac.* etc.) are allowed for download.
 ```
 
-`inline code`
+## Development tools
 
-```
-:root {
-  @for $level from 1 through 12 {
-    @if $level % 4 == 0 {
-      --toc-#{$level}: #{darken($theme-white, 4 * 8.8%)};
-    } @else {
-      --toc-#{$level}: #{darken($theme-white, $level % 4 * 8.8%)};
-    }
-  }
-}
-```
+If you are not familiar with rosbag files, you could use our simple image undistort & saving [python script](https://urserver.kaist.ac.kr/publicdata/ViViD++/process_img.py).
+Locate the script in the same folder with the bagfile, and running the script will save your images in the folder named "rgb" or "ther". You may also find a text file containing
+gps coordinate (UTM) oriented in start point of driving-campus-day1 with cooresponding timestamps, in the "gpslist.txt" file.
 
-I give this theme two :+1:!
+For saving non-image sensors as a csv or text file, simple imu / event image saver [script](https://urserver.kaist.ac.kr/publicdata/ViViD++/process_dvs.py) will help.
 
-```tip
-Set config `plugins: [jemoji]`, Emoji searcher, see: [https://emoji.muan.co/](https://emoji.muan.co/)
-```
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+## BibTeX
+
+TBU!
