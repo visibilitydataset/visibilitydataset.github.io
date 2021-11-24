@@ -10,7 +10,7 @@ sort: 1
 
 ## Sequences
 
-We provide a dataset from two distinct sensor systems, handheld and driving.
+We provide a dataset from two distinct sensor systems, handheld and driving. Handheld sequences provide motion and illumination variances and Driving sequences repeat the same trajectory in different times.  A brief information is illustrated below.
 
 <table>
   <tr>
@@ -19,6 +19,13 @@ We provide a dataset from two distinct sensor systems, handheld and driving.
     </tr>
 </table>
 
+## Sequence statistics
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/seq_table.png" width="100%" height="auto" />
+</div>
+
+## Dataset structure
 
 ```
 dataset
