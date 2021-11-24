@@ -2,11 +2,16 @@
 sort: 1
 ---
 
+## Sensor Specifications
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/table2.png" width="80%" height="auto" />
+</div>
+
 ## Sequences
 
 We provide a dataset from two distinct sensor systems, handheld and driving.
 
-##
 
 ```
 dataset
