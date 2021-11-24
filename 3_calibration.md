@@ -8,12 +8,12 @@ sort: 3
 
 - The driving sensor system and its calibration results
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/drive_system.png" width="100%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/drive_system.png" width="60%" height="auto" />
 </div>
 
 - The handheld sensor system and its calibration results
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_system.png" width="100%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_system.png" width="60%" height="auto" />
 </div>
 
 ## Calibration Procedure
