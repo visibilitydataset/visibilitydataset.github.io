@@ -2,6 +2,8 @@
 sort: 1
 ---
 
+# Sensors and Sequences
+
 ## Sensor Specifications
 
 <div class="t3iYD" style="text-align: center;">
