@@ -15,8 +15,8 @@ The shortcut for the calibration parameters are also [here](https://urserver.kai
 
 ## Development tools
 
-If you are not familiar with rosbag files, you could use our simple image undistort & saving [python script](https://urserver.kaist.ac.kr/publicdata/ViViD++/process_img.py).
-For saving non-image sensors as a csv or text file, simple imu / event image saver [python script](https://urserver.kaist.ac.kr/publicdata/ViViD++/process_dvs.py) will help.
+If you are not familiar with rosbag files, you could use our simple image undistort & saver [script](https://urserver.kaist.ac.kr/publicdata/ViViD++/process_img.py).
+For saving non-image sensors as a csv or text file, simple imu / event image saver [script](https://urserver.kaist.ac.kr/publicdata/ViViD++/process_dvs.py) will help.
 
 Locate the script in the same folder with the bagfile, and running the script will save your images in the folder named "rgb" or "ther". You will also find a text file containing
 gps coordinate (UTM) oriented in start point of driving-campus-day1 with corresponding timestamps, in the "gpslist.txt" file.
