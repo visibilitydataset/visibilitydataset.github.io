@@ -14,6 +14,7 @@ Data Sets for SLAM; Data Sets for Robotic Vision; Data Sets for Robot Learning
 
  An overview of the sensor system and the dataset. We set up different sensor configurations for handheld (upper left) and driving (upper right). Sensor systems include RGB, thermal, events, depth, and interial measurements. Each sensor is indicated with the letter box. Each sensor's visibility differences are displayed in the lower row. Relative to RGB, thermal and event show less variance to the illumination condition.
 
+ <div class="t3iYD" style="text-align: center;">
  <video width="640" height="360" controls>
    <source src="https://urserver.kaist.ac.kr/publicdata/ViViD++/RAL2021-video-main.mp4" type="video/mp4">
  </video>
