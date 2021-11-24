@@ -2,10 +2,7 @@
 sort: 1
 ---
 
-# Test Documentation
+# Vision for Visibility Dataset
 
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-```
 
 {% include list.liquid all=true %}

@@ -11,7 +11,7 @@ theme: null
 readme_index:
   with_frontmatter: true
 
-plugins:
+plugins_dir:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
