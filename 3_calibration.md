@@ -29,7 +29,6 @@ We used a special type of calibration pattern, which is PCB checkerboard and. Th
 </table>
 
  - Thermal to LiDAR
-
 <table>
 <tr>
 <td align = "right">
@@ -41,19 +40,15 @@ We used a special type of calibration pattern, which is PCB checkerboard and. Th
 </tr>
 </table>
 
- - Event and Thermal to RGB-D (handheld)
+ - Event to RGB-D (handheld)
+ <div class="t3iYD" style="text-align: center;">
+ <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_dvs_align.png" width="40%" height="auto" />
+ </div>
 
- <table>
- <tr>
- <td align = "right">
- <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_dvs_align.png" width="100px" height="80px" />
- </td>
- <td align = "left">
- <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_ther_align.png" width="100px" height="80px" />
- </td>
- </tr>
- </table>
-
+   - Thermal to RGB-D (handheld)
+   <div class="t3iYD" style="text-align: center;">
+   <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_ther_align.png" width="40%" height="auto" />
+   </div>
 
 ## Sample Algorithms
 
