@@ -1,6 +1,8 @@
 ---
-sort: 3
+sort: 4
 ---
+
+# Download & Tools
 
 ## Request Downloads
 
@@ -42,7 +44,3 @@ update_event_q function sorts and transforms the events from the message, and re
 
 #### generate_event_img(event_folder, eventlist, timestamp)
 generate_event_img function generates an event image into the event_folder, by collecting all events around the given timestamp, in 5ms. If there's less than 1% of events, it skips.
-
-## BibTeX
-
-TBU!

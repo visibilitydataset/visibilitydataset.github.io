@@ -1,5 +1,5 @@
 ---
-sort: 1
+sort: 2
 ---
 
 # Sensors and Sequences
@@ -25,6 +25,14 @@ We provide a dataset from two distinct sensor systems, handheld and driving. Han
 
 <div class="t3iYD" style="text-align: center;">
 <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/seq_table.png" width="100%" height="auto" />
+</div>
+
+## GPS groundtruth
+
+We provide the GPS trajectory with LOAM poses, and the figure below shows the comparison between LOAM and GPS trajectories.
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/gps.png" width="100%" height="auto" />
 </div>
 
 ## Dataset structure
