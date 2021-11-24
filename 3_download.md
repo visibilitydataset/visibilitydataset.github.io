@@ -37,6 +37,12 @@ write_images function undistorts and writes desired RGB or Thermal images, into 
 #### raw_to_kelvin(value)
 raw_to_kelvin function transforms the values obtained from 14-bit thermal image to real kelvin temperature.
 
+#### update_event_q(message, eventlist)
+update_event_q function sorts and transforms the events from the message, and returns as a eventlist class object.
+
+#### generate_event_img(event_folder, eventlist, timestamp)
+generate_event_img function generates an event image into the event_folder, by collecting all events around the given timestamp, in 5ms. If there's less than 1% of events, it skips.
+
 ## BibTeX
 
 TBU!

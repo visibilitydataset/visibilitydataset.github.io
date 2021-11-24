@@ -12,6 +12,11 @@ sort: 1
 
 We provide a dataset from two distinct sensor systems, handheld and driving.
 
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/table3.png" width="60%" height="auto"/>
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/table4.png" width="60%" height="auto"/>
+</div>
+
 
 ```
 dataset
