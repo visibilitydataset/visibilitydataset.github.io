@@ -5,11 +5,11 @@ sort: 1
 # About
 
 ## Authors
-- (Alex Junho Lee)[https://c11.kr/alexlee], KAIST CEE.
-- (Younggun Cho)[https://sites.google.com/site/ygchocv/home], Inha Univ.
-- (Young-sik Shin)[https://scholar.google.co.kr/citations?user=gGfBRawAAAAJ&amp;hl=ko], KIMM.
-- (Ayoung Kim)[https://scholar.google.com/citations?user=7yveufgAAAAJ&hl=ko&oi=ao], SNU.
-- (Hyun Myung)[http://urobot.kaist.ac.kr/members/professor], KAIST EE.
+- [Alex Junho Lee](https://c11.kr/alexlee), KAIST CEE.
+- [Younggun Cho](https://sites.google.com/site/ygchocv/home), Inha Univ.
+- [Young-sik Shin](https://scholar.google.co.kr/citations?user=gGfBRawAAAAJ&amp;hl=ko), KIMM.
+- [Ayoung Kim](https://scholar.google.com/citations?user=7yveufgAAAAJ&hl=ko&oi=ao), SNU.
+- [Hyun Myung](http://urobot.kaist.ac.kr/members/professor), KAIST EE.
 
 ## What's been improved after ViViD?
 
