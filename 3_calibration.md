@@ -6,14 +6,16 @@ sort: 3
 
 ## Sensor Coordinates
 
-- The driving sensor system and its calibration results
+For verification, we show the sensor coordinates plots with the actual sensors installed, for each systems.
+
+- Driving
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/drive_system.png" width="60%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/drive_system.png" width="80%" height="auto" />
 </div>
 
-- The handheld sensor system and its calibration results
+- Handheld
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_system.png" width="60%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_system.png" width="80%" height="auto" />
 </div>
 
 ## Calibration Procedure
