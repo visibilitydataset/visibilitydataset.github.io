@@ -12,7 +12,7 @@ sort: 2
 
 ## Sequences
 
-We provide a dataset from two distinct sensor systems, handheld and driving. Handheld sequences provide motion and illumination variances and Driving sequences repeat the same trajectory in different times.  A brief information is illustrated below.
+We provide a dataset from two distinct sensor systems, handheld and driving. Handheld sequences provide motion and illumination variances and Driving sequences repeat the same trajectory in different times. A brief information is illustrated below.
 
 <table>
   <tr>
@@ -21,18 +21,18 @@ We provide a dataset from two distinct sensor systems, handheld and driving. Han
     </tr>
 </table>
 
-## Sequence statistics
-
-<div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/seq_table.png" width="100%" height="auto" />
-</div>
-
 ## GPS groundtruth
 
 We provide the GPS trajectory with LOAM poses, and the figure below shows the comparison between LOAM and GPS trajectories.
 
 <div class="t3iYD" style="text-align: center;">
 <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/gps.png" width="100%" height="auto" />
+</div>
+
+## Sequence statistics
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/seq_table.png" width="100%" height="auto" />
 </div>
 
 ## Dataset structure
@@ -43,7 +43,6 @@ dataset
 ├── process_dvs.py
 ├── calibration
 │   ├── driving_results
-│   ├── handheld_files
 │   ├── handheld_results
 │   └── handheld_targets
 ├── driving_full
