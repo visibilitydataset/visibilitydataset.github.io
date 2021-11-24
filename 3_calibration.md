@@ -46,10 +46,10 @@ We used a special type of calibration pattern, which is PCB checkerboard and. Th
  <table>
  <tr>
  <td align = "right">
- <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_dvs_align.png" width="120%" height="auto" />
+ <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_dvs_align.png" width="100px" height="80px" />
  </td>
  <td align = "left">
- <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_ther_align.png" width="50%" height="auto" />
+ <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_ther_align.png" width="100px" height="80px" />
  </td>
  </tr>
  </table>
