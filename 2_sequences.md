@@ -6,6 +6,12 @@ sort: 2
 
 ## Sensor Specifications
 
+- Handheld and driving sensors
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/systems.png" width="80%" height="auto" />
+</div>
+
+- Sensor models and specifications
 <div class="t3iYD" style="text-align: center;">
 <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/table2.png" width="100%" height="auto" />
 </div>
