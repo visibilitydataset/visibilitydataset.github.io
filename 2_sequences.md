@@ -33,6 +33,15 @@ We provide a dataset from two distinct sensor systems, handheld and driving. Han
 <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/seq_table.png" width="100%" height="auto" />
 </div>
 
+## Sample images
+
+Samples of event edges (upper), RGB (center), and thermal images (lower) from day1, day2 and night sequences, from left to right.
+The event edges and the thermal images are colored for visualization.
+    
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/sample_sensors.png" width="80%" height="auto" />
+</div>
+
 ## Groundtruth
 
 We provide the GPS trajectory with LOAM poses, and the figure below shows the comparison between LOAM and GPS trajectories.
