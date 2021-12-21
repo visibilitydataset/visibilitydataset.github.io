@@ -54,6 +54,18 @@ We used a special type of calibration pattern, which is checkerboard pattern pri
 </tr>
 </table>
 
+ - Event to LiDAR
+<table>
+<tr>
+<td align = "right">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/example_align1e.png" width="100%" height="auto" />
+</td>
+<td align = "left">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/example_align2e.png" width="100%" height="auto" />
+</td>
+</tr>
+</table>
+
  - Event to RGB-D (handheld)
 <div class="t3iYD" style="text-align: center;">
  <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/hand_dvs_align.png" width="40%" height="auto" />
