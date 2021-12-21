@@ -54,7 +54,7 @@ We used a special type of calibration pattern, which is checkerboard pattern pri
 </tr>
 </table>
 
- - Event to LiDAR
+ - Event(reconstructed) to LiDAR
 <table>
 <tr>
 <td align = "right">
