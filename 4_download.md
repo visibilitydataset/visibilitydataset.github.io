@@ -24,7 +24,7 @@ Locate the script in the same folder with the bagfile, and running the script wi
 gps coordinate (UTM) oriented in start point of driving-campus-day1 with corresponding timestamps, in the "gpslist.txt" file.
 
 ```note
-The timestamps recorded from the sensor clock are recorded in the headers of each message (such as msg.header.stamp). And this is different from the timestamp recorded in the message timestamps (such as t in bag.readmessages()). Please ignore the message timestamps and only use the timestamps in the message header.
+The timestamps recorded from the sensor clock are recorded in the headers of each message (such as msg.header.stamp). And this is different from the timestamp recorded in the message timestamps (such as t in bag.readmessages()). Please ignore the message timestamps and only **use the timestamps in the header of each message**.
 ```
 
 ### process_img.py
