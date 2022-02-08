@@ -23,7 +23,9 @@ For saving non-image sensors as a csv or text file, simple imu / event image sav
 Locate the script in the same folder with the bagfile, and running the script will save your images in the folder named "rgb" or "ther". You will also find a text file containing
 gps coordinate (UTM) oriented in start point of driving-campus-day1 with corresponding timestamps, in the "gpslist.txt" file.
 
-**About the timestamps. The timestamps recorded from the sensor clock are recorded in the headers of each message, and is different from the timestamp recorded in the bag message. Please ignore the message timestamps and only use the timestamps in the message header.
+```About the timestamps.
+The timestamps recorded from the sensor clock are recorded in the headers of each message, and is different from the timestamp recorded in the bag message. Please ignore the message timestamps and only use the timestamps in the message header.
+```
 
 ### process_img.py
 process_img script searches image and gps messages from from the bagfile, and saves them as in text and png format.
