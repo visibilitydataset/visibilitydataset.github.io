@@ -24,6 +24,10 @@ Locate the script in the same folder with the bagfile, and running the script wi
 gps coordinate (UTM) oriented in start point of driving-campus-day1 with corresponding timestamps, in the "gpslist.txt" file.
 
 ```note
+When a sensor is connected to the computer and starts initialization process, the driver calculates a fixed temporal offset between sensor startup time and rostime. After initialization, the fixed temporal offset is added to the sensor startup time and marked as sensor timestamp. In this process, there exists a narrow offset between rostime and driver timestamp, occurred by the delay between the sensor and driver at initialization. Usually this error is negligible, but should be considered when using a millisecond-sensitive algorithms.
+```
+
+```note
 The timestamps recorded from the sensor clock are recorded in the headers of each message (such as msg.header.stamp). And this is different from the timestamp recorded in the message timestamps (such as t in bag.readmessages()). Please ignore the message timestamps and only **use the timestamps in the header of each message**.
 ```
 
