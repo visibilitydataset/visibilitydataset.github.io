@@ -83,13 +83,9 @@ We used a special type of calibration pattern, which is checkerboard pattern pri
 
 ## Sample Algorithms
 
-- ORB-SLAM benchmarks
+- ORB-SLAM reconstruction (campus)
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_result_table.png" width="100%" height="auto" />
-</div>
-
-<div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_table_explain.png" width="100%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/campus_orb2.png" width="100%" height="auto" />
 </div>
 
 - Visual Place Recognition (campus)
@@ -102,7 +98,17 @@ We used a special type of calibration pattern, which is checkerboard pattern pri
 <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/campus_sample.png" width="100%" height="auto" />
 </div>
 
-- ORB-SLAM reconstruction (campus)
+## Discussions on thermal vision
+
+- ORB-SLAM benchmarks
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/campus_orb2.png" width="100%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_result_table.png" width="60%" height="auto" />
+</div>
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_table_explain.png" width="100%" height="auto" />
+</div>
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_explain.png" width="100%" height="auto" />
 </div>
