@@ -83,6 +83,15 @@ We used a special type of calibration pattern, which is checkerboard pattern pri
 
 ## Sample Algorithms
 
+- ORB-SLAM benchmarks
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_result_table.png" width="100%" height="auto" />
+</div>
+
+<div class="t3iYD" style="text-align: center;">
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_table_explain.png" width="100%" height="auto" />
+</div>
+
 - Visual Place Recognition (campus)
 <div class="t3iYD" style="text-align: center;">
 <img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/vpr.png" width="100%" height="auto" />
