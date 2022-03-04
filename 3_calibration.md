@@ -106,9 +106,9 @@ We used a special type of calibration pattern, which is checkerboard pattern pri
 </div>
 
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_table_explain.png" width="100%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_table_explain.png" width="80%" height="auto" />
 </div>
 
 <div class="t3iYD" style="text-align: center;">
-<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_explain.png" width="100%" height="auto" />
+<img class="CENy8b" role="img" src="https://urserver.kaist.ac.kr/publicdata/ViViD++/figures/orb_explain.png" width="80%" height="auto" />
 </div>
