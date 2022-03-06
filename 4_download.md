@@ -71,6 +71,7 @@ dataset
 │   ├── city_day2.bag
 │   ├── city_evening.bag
 │   └── city_night.bag
+│   └──── loampose
 ├── driving_vision
 │   ├── campus_day1.bag
 │   ├── campus_day2_2.bag
@@ -110,13 +111,5 @@ dataset
     ├── outdoor_robust_day2.bag
     ├── outdoor_robust_night1.bag
     ├── outdoor_robust_night2.bag
-    └── pose
-        ├── map_outdoor_robust_day1.pcd
-        ├── map_outdoor_robust_day2.pcd
-        ├── map_outdoor_robust_night1.pcd
-        ├── map_outdoor_robust_night2.pcd
-        ├── path_outdoor_robust_day1.csv
-        ├── path_outdoor_robust_day2.csv
-        ├── path_outdoor_robust_night1.csv
-        └── path_outdoor_robust_night2.csv
+    └──── pose
 ```
