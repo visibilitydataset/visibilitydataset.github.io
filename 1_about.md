@@ -33,7 +33,4 @@ year = {2019}
 }
 ```
 
-ViViD++ (RA-L)
-```
-TBU!
-```
+ViViD++ (RA-L) : TBU
