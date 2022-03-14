@@ -24,16 +24,16 @@ There's a lot of excellent work that was introduced for SLAM Developments. For e
 ## BibTeX
 
 ViViD (Workshop)
-'''
-@inproceedings{lee2019vivid,
-title={{ViViD}: Vision for visibility dataset},
-author={Lee, Alex Junho and Cho, Younggun and Yoon, Sungho and Shin, Youngsik and Kim, Ayoung},
-booktitle = {IEEE Int. Conf. Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR },
-year = {2019}
-}
-'''
+```
+  @inproceedings{lee2019vivid,
+  title={{ViViD}: Vision for visibility dataset},
+  author={Lee, Alex Junho and Cho, Younggun and Yoon, Sungho and Shin, Youngsik and Kim, Ayoung},
+  booktitle = {IEEE Int. Conf. Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR },
+  year = {2019}
+  }
+```
 
 ViViD++ (RA-L)
-'''
-TBU
-'''
+```
+  TBU
+```
