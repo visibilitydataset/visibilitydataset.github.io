@@ -23,6 +23,7 @@ There's a lot of excellent work that was introduced for SLAM Developments. For e
 
 ## BibTeX
 
+ViViD (Workshop)
 ```
 @inproceedings{lee2019vivid,
 title={{ViViD}: Vision for visibility dataset},
@@ -32,3 +33,7 @@ year = {2019}
 }
 ```
 
+ViViD++ (RA-L)
+```
+TBU!
+```
