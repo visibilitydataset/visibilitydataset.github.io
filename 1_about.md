@@ -35,5 +35,11 @@ year = {2019}
 
 ViViD++ (RA-L)
 ```
-TBU
+@article{lee2022vivid,
+  title={ViViD: Vision for visibility dataset},
+  author={Lee, Alex Junho and Cho, Younggun and Shin, Youngsik and Kim, Ayoung and Hyun, Myung},
+  journal={IEEE Robotics and Automation Letters},
+  year={2022},
+  publisher={IEEE}
+}
 ```
