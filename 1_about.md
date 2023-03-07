@@ -19,7 +19,7 @@ This work is a proceeding work of the unpublished paper "ViViD : Vision for Visi
 There's a lot of excellent work that was introduced for SLAM Developments. For example, [Awesome SLAM Datasets](https://sites.google.com/view/awesome-slam-datasets/) lists up State-Of-The-Art SLAM datasets. And you may also want to check [Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset) containing large scale and long term changes.
 
 ## Special thanks to
-[Sungho Yoon](https://scholar.google.com/citations?user=PUvBz80AAAAJ&hl=ko&oi=ao/) and Joowan Kim for contributions on the dataset configuration.
+[Sungho Yoon](https://scholar.google.com/citations?user=PUvBz80AAAAJ&hl=ko&oi=ao/) and [Joowan Kim](https://scholar.google.com/citations?user=87nuF54AAAAJ&hl=ko&oi=ao) for contributions on the dataset configuration.
 
 ## BibTeX
 
